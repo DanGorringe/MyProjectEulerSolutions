@@ -66,5 +66,5 @@ char num   [] = "73167176531330624919225119674426574742355349194934"
 }
 
 // Dan Gorringe April 2016
-// In Progress
+// Finsihed
 // Answer = 23514624000
