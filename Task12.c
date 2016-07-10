@@ -1,4 +1,4 @@
-//This is task 11 of ProjectEuler ,the biggest product of 4 numbers in a 20x20 grid
+//This is task 12 of ProjectEuler , find first traignular number to have more than 500 factors
 
 #include<stdio.h>
 #include<math.h>
