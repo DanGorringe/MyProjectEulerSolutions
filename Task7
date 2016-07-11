@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <math.h>
-#include <omp.h>
+//#include <omp.h>
 
 int main()
 {
@@ -33,9 +33,9 @@ int main()
 
       dividetest = 0;
 //      printf ("Testing %ld \n", x);
-      #pragma omp parallel // This should run the for loop in parallel
-      {
-        #pragma omp for
+//      #pragma omp parallel // This should run the for loop in parallel
+//      {
+//        #pragma omp for
         for ( z = 2; z < x; z++ ) {
           if ( !(x % z) ) {
             dividetest = dividetest + 1;      // If can divide by any number below half the value of x
@@ -48,7 +48,7 @@ int main()
         printf ("prime no %d \n", primeno);               //
 //        if ( primeno == wanted + 1){                      //
 //          printf ("The %d th prime is %ld \n",wanted, x); //
-        }
+//        }
       }
     } while (primeno < wanted);
 
