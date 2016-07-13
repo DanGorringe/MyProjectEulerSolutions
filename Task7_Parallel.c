@@ -41,14 +41,14 @@ int main()
             dividetest = dividetest + 1;      // If can divide by any number below half the value of x
           }
         }
-//      }
+      }
       if ( dividetest == 0){                              //
 //        printf ("prime \n");                              //
         primeno = primeno + 1;                            //  Not sure how this bit will like parallisation
         printf ("prime no %d \n", primeno);               //
 //        if ( primeno == wanted + 1){                      //
 //          printf ("The %d th prime is %ld \n",wanted, x); //
-        }
+
       }
     } while (primeno < wanted);
 
@@ -56,6 +56,10 @@ int main()
 
     return 0;
 }
+
+// Runs in 60(ish) seconds on one core
+// Runs in 30(ish) seconds on four
+// Runs in 15(ish) seconds on fourty-four
 
 // Dan Gorringe March 2016
 // Completed
