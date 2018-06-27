@@ -3,8 +3,6 @@ package main
 
 import "fmt"
 
-//
-
 // Function to find proper divisors, returns list
 func Divisors(input int) []int {
 	var divisorList []int
