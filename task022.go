@@ -31,7 +31,7 @@ func Sum(input string) int {
 
 func main() {
 	nameScores := 0
-	contents,_ := ioutil.ReadFile("p022_names.txt")
+	contents,_ := ioutil.ReadFile("task022Names.txt")
 	names := strings.Split(string(contents), "\n")
 	sort.Strings(names)
 	for position,name := range names {
