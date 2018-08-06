@@ -1,0 +1,36 @@
+
+a.out
+
+a.out.0000.log
+
+test_mpi.c
+
+mpi_prime.c
+
+Matrices.c
+
+Matrices_2x3_2x2.c
+
+Matrices_2x2.c
+
+dan@192.168.0.137
+
+CoreTest.c
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+
+lib/readme.txt
+
+platformio.ini
+
+Parallel Versions/Task10_Parallel.c
+
+Parallel Versions/Task10_mpi.c
+
+Parallel Versions/Task10_Parallel.c
+
+.travis.yml
+
+Parallel Versions/Task10_mpi.c
