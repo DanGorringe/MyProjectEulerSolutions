@@ -5,19 +5,18 @@
 int main()
 {
     int x;
-    int total;
+    int answer;
     int counter;
 
     // The loop goes while x < 10, and x increases by one every loop
-    for ( x = 0; x < 300000000; x++ ) {
-      total = x;
+    for ( x = 21; x < 300000000; x++ ) {
       counter = 0;
-      if ( !(x % 20) && !(x % 19) && !(x % 18) && !(x % 17) && !(x % 16) && !(x % 15) && !(x % 14) && !(x % 13) && !(x % 12) && !(x % 11) && !(x % 10) && !(x % 9) && !(x % 8) && !(x % 7) && !(x % 6) && !(x % 5) && !(x % 4) && !(x % 3) && !(x % 2))
-          printf ("%d \n", x);
+      if ( !(x % 20) && !(x % 19) && !(x % 18) && !(x % 17) && !(x % 16) && !(x % 15) && !(x % 14) && !(x % 13) && !(x % 12) && !(x % 11) && !(x % 10) && !(x % 9) && !(x % 8) && !(x % 7) && !(x % 6) && !(x % 5) && !(x % 4) && !(x % 3) && !(x % 2)){
+          break;
       }
-
-
-    getchar();
+    }
+    printf ("Answer is: %d \n", x);
+    return 0;
 }
 
 // Dan Gorringe March 2016

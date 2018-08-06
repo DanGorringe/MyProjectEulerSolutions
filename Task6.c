@@ -1,4 +1,4 @@
-// This is task 6 of Project Euler, to difference between the sum of x^2 and the sum of xs squared.
+// This is task 6 of Project Euler, to find the difference between the sum of x^2 and the sum of x's squared.
 
 #include <stdio.h>
 #include <math.h>
@@ -17,17 +17,15 @@ int main()
     for ( x = 0; x < 102; x++ ) {
       if ( x == 101 ){
         answer = - squaretotal + pow (totalsquare, 2);  // sigma(x^2) - sigma(x)^2
-        printf ("%d \n", answer);                     // Then print the answer
       }
       else {
-        totalsquare = totalsquare + x;          // sigma(x)
-        squaretotal = squaretotal + pow (x, 2); // sigma(x^2)
+        totalsquare += x;          // sigma(x)
+        squaretotal += pow (x, 2); // sigma(x^2)
       }
 
     }
-
-
-    getchar();
+    printf ("Answer is: %d \n", answer);
+    return 0;
 }
 
 // Dan Gorringe March 2016

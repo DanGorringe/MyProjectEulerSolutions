@@ -22,20 +22,10 @@ int main()
         if ( !(x % 2)){     // If Also Even
           total += current; // Then add to total
         }
-/*                                                  // Not needed for Answer
-        printf ("%d \n", x);                        // Print the current value of x
-        printf ("current is %d \n", current);
-        printf ("previous is %d \n", previous);
-        printf ("Current Total is %d \n", total);
-*/
       }
     }
-    if (x == 4000000 ) {                          // Once reached final value
-      printf ("Final total is %d \n", total);     // Print the Answer
-
-    }
-
-    getchar();
+    printf ("Answer is: %d \n", total);     // Print the Answer
+    return 0;
 }
 
 // Dan Gorringe March 2016

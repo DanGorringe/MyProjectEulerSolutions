@@ -15,7 +15,7 @@ int main()
 
     x = 2;
     z = 2;
-    primeno = 0;
+    primeno = 1; // to account for 1 bveing prime
 //    printf("Which prime number ");
 //    scanf("%d", &wanted);
     wanted = 10001;
@@ -45,15 +45,15 @@ int main()
       if ( dividetest == 0){                              //
 //        printf ("prime \n");                              //
         primeno = primeno + 1;                            //  Not sure how this bit will like parallisation
-        printf ("prime no %d \n", primeno);               //
+        //printf ("prime no %d \n", primeno);               //
 //        if ( primeno == wanted + 1){                      //
 //          printf ("The %d th prime is %ld \n",wanted, x); //
 //        }
       }
     } while (primeno < wanted);
 
-    printf ("The %d th prime is %ld \n",wanted, x);
-
+    //printf ("The %d th prime is %ld \n",wanted, x);
+    printf ("Answer is: %ld \n", x);
     return 0;
 }
 

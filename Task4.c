@@ -1,4 +1,4 @@
-// This is task 4 of Project Euler, to find the largest palindrome number
+// This is task 4 of Project Euler, to find the largest palindromic product of two 3-digit numbers
 #include <stdio.h>
 
 int main()
@@ -52,7 +52,6 @@ int main()
       result =0;
 
     }
-    getchar();
     return 0;
 }
 

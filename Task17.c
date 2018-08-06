@@ -17,7 +17,7 @@ int main()
 //   num = 981;
 
   for (num = 1; num < 1000; num++){
-    printf ("number : %d", num);
+    //printf ("number : %d", num);
     ones = 0;
     tens = 0;
     teens = 0;
@@ -49,10 +49,10 @@ int main()
 
 
     }
-    printf (" hundreds:%d", hundreds);
-    printf (" tens: %d",tens );
-    printf (" teens: %d", teens);
-    printf (" ones: %d", ones);
+    //printf (" hundreds:%d", hundreds);
+    //printf (" tens: %d",tens );
+    //printf (" teens: %d", teens);
+    //printf (" ones: %d", ones);
 
     // And logic //
 
@@ -114,17 +114,17 @@ int main()
 
     // Sum
 
-    printf ("current total for %d is %ld \n",num, current_total);
+    //printf ("current total for %d is %ld \n",num, current_total);
     total = total + current_total;
   }
   total = total + 11 ;                                          // One Thousand
-  printf ("number :1000");                                      //
-  printf (" hundreds:0");                                       //
-  printf (" tens: 0");                                          //
-  printf (" teens: 0");                                         //
-  printf (" ones: 0");                                          //
-  printf ("current total for 1000 is %ld \n", current_total);   //
-  printf ("Sum = %ld \n", total);
+  //printf ("number :1000");                                      //
+  //printf (" hundreds:0");                                       //
+  //printf (" tens: 0");                                          //
+  //printf (" teens: 0");                                         //
+  //printf (" ones: 0");                                          //
+  //printf ("current total for 1000 is %ld \n", current_total);   //
+  printf ("Answer is: %ld \n", total);
   return 0;
 }
 

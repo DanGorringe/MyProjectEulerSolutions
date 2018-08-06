@@ -3,12 +3,13 @@
 #include<stdio.h>
 #include<math.h>
 
-int factorial (int a);
+long double factorial (int a);
 int main()
 {
-  int grid_size;
-  printf("Grid Size ");
-  scanf("%d", &grid_size);
+  int grid_size = 20;
+  //printf("Grid Size ");
+  //scanf("%d", &grid_size);
+
   long ways;
   long n;
   long r;
@@ -26,13 +27,13 @@ int main()
 
   ways = h / f;
 
-  printf("h = %Lf\n", h);
-  printf("f = %Lf\n", f);
-  printf("Number of ways = %ld\n", ways);
+  //printf("h = %Lf\n", h);
+  //printf("f = %Lf\n", f);
+  printf("Answer is: %ld\n", ways);
 
 }
 
-int factorial(int a){
+long double factorial(int a){
   long b;
   long double c;
   c = 1;

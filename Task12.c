@@ -14,8 +14,12 @@ int main()
   int test_divisors;
   int highest_divisors;
 
+  /*
   printf("Minimum Divisors ");
   scanf("%d", &wanted_divisors);
+  */
+
+  wanted_divisors = 500;
 
   y = 0;
   j = 100000000;
@@ -23,7 +27,7 @@ int main()
 
   for (x =1; x < j; x++){
     if (x == j - 1){
-      printf("Maximum x reached ");
+      // printf("Maximum x reached ");
     }
     y = y + x;
     for (i = 2; i < sqrt(y) + 1; i++) {
@@ -36,13 +40,13 @@ int main()
     }
     if (test_divisors > highest_divisors){
       highest_divisors = test_divisors;
-      printf ("Highest amount of dividers %d \n", highest_divisors);
+      //printf ("Highest amount of dividers %d \n", highest_divisors);
     }
     if (test_divisors > wanted_divisors){
-      printf ("Number %d \n", y);
-      printf ("Amount of dividers is %d \n", test_divisors);
+      //printf ("Number %d \n", y);
+      //printf ("Amount of dividers is %d \n", test_divisors);
+      printf ("Answer is: %d \n", y);
       return 0;
-      getchar();
     }
     else{
     //  printf ("current number is %d \n", y);

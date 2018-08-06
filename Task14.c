@@ -1,4 +1,4 @@
-//This is task 13 of ProjectEuler, Find the first ten digits of the sum of 100 50-digit numbers
+//This is task 13 of ProjectEuler, Find longest chain of sequence
 
 #include<stdio.h>
 #include<math.h>
@@ -34,8 +34,8 @@ int main()
       }
     }
 
-  printf("chain lenght of %d\n", saved_chain_length);
-  printf("x is %d\n", saved_x);
+  //printf("chain lenght of %d\n", saved_chain_length);
+  printf("Answer is: %d\n", saved_x);
 }
 
 // Dan Gorringe July 2016

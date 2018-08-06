@@ -28,15 +28,16 @@ int main()
           //x = x + 1;
           //printf ("The current x is %ld and is divisble by ", x);
           //printf (" %ld \n", z);
+          break;
         }
       }
       }
       if ( dividetest == 0){
         total = total + x;
-        //printf ("The current prime x is %ld \n", x);
+        printf ("The current prime x is %ld \n", x);
       }
     }
-      printf ("The prime total is %ld \n", total);                     // Then print the answer
+      printf ("Answer is: %ld \n", total);                     // Then print the answer
       return 0;
 }
 

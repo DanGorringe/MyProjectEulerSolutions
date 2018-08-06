@@ -130,8 +130,19 @@ int main()
     answer_final = answer_final + answer_array[0][i] * pow(10, 100 - i);      // multiplies each column by the required power of 10
   }                                                                           // I.E. there's a ten's column and hundred's and ...
 
-  printf ("\nfinal answer is %Lf \n", answer_final);
+  //printf ("\nfinal answer is %Lf \n", answer_final);
 
+  // To seperate first ten digits
+
+  unsigned long long firstTen = 0;
+
+  for (i=102;i>92;i--){
+    long long int digit = answer_final/pow(10,i);
+    digit = digit%10;
+    unsigned long long int change = digit*pow(10,i-93);
+    firstTen += change;
+  }
+  printf ("Answer is: %llu \n",firstTen);
   return 0;
 }
 

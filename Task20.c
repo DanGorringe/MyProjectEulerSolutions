@@ -20,7 +20,7 @@ int main()
 
   for (x = 2; x < i +1; x++){
     for (a = 0; a < 200; a++){
-      printf("digit[%d] = %d \n", a, digits[a]);
+      //printf("digit[%d] = %d \n", a, digits[a]);
       digits[a]= digits[a] * x;
     }
     for (a = 0; a < 200; a++){
@@ -33,11 +33,11 @@ int main()
   }
   for (b = 0; b < 200; b++){
     total = total + digits[b];
-    printf("digit[%d] = %d \n", b, digits[b]);
+    //printf("digit[%d] = %d \n", b, digits[b]);
   }
 
 
-  printf("Total = %d \n", total);
+  printf("Answer is: %d \n", total);
   return 0;
 }
 

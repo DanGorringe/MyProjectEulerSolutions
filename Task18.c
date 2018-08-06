@@ -42,7 +42,7 @@ int main()
       }
   }
 
-printf ("Maximum Value :%d", x[0][0]);
+printf ("Answer is: %d\n", x[0][0]);
 return 0;
 
 }

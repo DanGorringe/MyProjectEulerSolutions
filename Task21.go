@@ -41,7 +41,7 @@ func main() {
 			amicableNumbers = append(amicableNumbers, a)
 		}
 	}
-	fmt.Println(Sum(amicableNumbers))
+	fmt.Println("Answer is:",Sum(amicableNumbers))
 }
 
 // Dan Gorringe June 2018

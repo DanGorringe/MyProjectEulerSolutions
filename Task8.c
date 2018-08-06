@@ -57,9 +57,10 @@ char num   [] = "73167176531330624919225119674426574742355349194934"
       }
     }
 
-    printf ("largest product is %ld \n", largest);
-    printf ("x of starting number is %d \n", largeststart);
-    printf ("value of starting number is %d \n", largeststartdigit);
+    //printf ("largest product is %ld \n", largest);
+    //printf ("x of starting number is %d \n", largeststart);
+    //printf ("value of starting number is %d \n", largeststartdigit);
+    printf ("Answer is: %ld \n", largest);
     return 0;
 
 

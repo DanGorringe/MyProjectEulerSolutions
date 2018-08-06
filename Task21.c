@@ -60,18 +60,18 @@ int main()
     //printf("b[1] is %d \n", b[1]);
     b[1] = b[1] + 1;
     if (a[0] == b[1] && a[1] != b[1]){
-      printf ("%d is Amicable \n",a[0]);
+      //printf ("%d is Amicable \n",a[0]);
       total = total + 1;
       sumtotal = sumtotal + a[0];
     }
 
  }
 
-  printf("Number of Amicable numbers = %d \n", total);
-  printf("Sum total = %d \n", sumtotal);
+  //printf("Number of Amicable numbers = %d \n", total);
+  printf("Answer is: %d \n", sumtotal);
 
   return 0;
 }
 // Dan Gorringe July 2016
-// in Progress
-// Answer =
+// Finished
+// Answer = 31626

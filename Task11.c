@@ -102,13 +102,13 @@ int main()
 //    printf ("y is %d \n", saved_y);
 //    printf ("starting number is %ld \n", tofind[1]);
   }
-  printf ("largest product is %ld \n", highest);
+  //printf ("largest product is %ld \n", highest);
   row = saved_x / 20;
   saved_x = saved_x - 20 * row;
-  printf ("row is %d \n", row);
-  printf ("x is %d \n", saved_x);
-  printf ("y is %d \n", saved_y);
-
+  //printf ("row is %d \n", row);
+  //printf ("x is %d \n", saved_x);
+  //printf ("y is %d \n", saved_y);
+  printf ("Answer is: %ld \n", highest);
 }
 //DanGorringe
 // Finished July 9th
